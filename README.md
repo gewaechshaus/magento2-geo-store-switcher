@@ -17,6 +17,7 @@ Please follow next instructions to successfully install ToBai Geo Store Switcher
         composer require tobai/magento2-geo-store-switcher
 
 3. Enable module and upgrade with this commands:
+        
         bin/magento module:enable  Tobai_GeoIp2
         bin/magento module:enable --clear-static-content Tobai_GeoStoreSwitcher
         bin/magento setup:upgrade
